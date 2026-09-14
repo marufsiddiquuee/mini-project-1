@@ -1,6 +1,3 @@
-/* =========================
-   Basic Reset
-========================= */
 
 * {
     box-sizing: border-box;
@@ -9,9 +6,6 @@
 }
 
 
-/* =========================
-   General Styles
-========================= */
 
 body {
     font-family: Arial, sans-serif;
@@ -42,9 +36,6 @@ a:hover {
 }
 
 
-/* =========================
-   Header
-========================= */
 
 header {
     background: linear-gradient(135deg, #312e81, #4f46e5);
@@ -64,7 +55,7 @@ header h1 {
 }
 
 
-/* Navigation */
+
 
 nav {
     display: flex;
@@ -85,9 +76,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   About
-========================= */
 
 .about {
     background-color: white;
@@ -123,9 +111,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   Skills
-========================= */
 
 .skills {
     padding: 70px 0;
@@ -154,9 +139,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   Projects
-========================= */
+
 
 .projects {
     background-color: white;
@@ -194,9 +177,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   Contact
-========================= */
 
 .contact {
     padding: 70px 0;
@@ -259,9 +239,7 @@ button:hover {
 }
 
 
-/* =========================
-   Footer
-========================= */
+
 
 footer {
     background: #1e1b4b;
@@ -271,13 +249,11 @@ footer {
 }
 
 
-/* =========================
-   Mobile Responsive Design
-========================= */
+
 
 @media (max-width: 768px) {
 
-    /* Header becomes vertical */
+    
 
     .header-content {
         flex-direction: column;
@@ -290,7 +266,7 @@ footer {
     }
 
 
-    /* About becomes vertical */
+   
 
     .about-content {
         flex-direction: column;
@@ -298,14 +274,13 @@ footer {
     }
 
 
-    /* Projects become vertical */
+    
 
     .project-list {
         flex-direction: column;
     }
 
-
-    /* Smaller profile image */
+    
 
     .profile-image img {
         width: 170px;
